@@ -1,0 +1,20 @@
+
+#mydiv {
+    animation: changeBg 3s infinite;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes changeBg {
+
+    0%,100% {
+        background-image: url("./1.jpeg");
+    }
+    33% {
+        background-image: url("./2.jpeg");
+    }
+    66% {
+        background-image: url("./image.jpeg");
+    }
+}
